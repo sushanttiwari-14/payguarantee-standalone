@@ -427,7 +427,7 @@ test('document routes serve fixed plain-text files and never arbitrary child pat
     const docs = await w.request('/api/docs');
     assert.equal(docs.status, 200);
     assert.match(docs.headers.get('content-type') || '', /^text\/plain/);
-    assert.match(await docs.text(), /PayProof/i);
+    assert.match(await docs.text(), /^# payguarantee-standalone/m);
     const license = await w.request('/api/license');
     assert.equal(license.status, 200);
     assert.match(license.headers.get('content-type') || '', /^text\/plain/);
