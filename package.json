@@ -20,6 +20,7 @@
     "source": "tsx scripts/package-source.ts",
     "evaluate": "tsx scripts/evaluate.ts",
     "judge:verify": "tsx scripts/judge-check.ts",
+    "judge:local": "tsx scripts/judge-local.ts",
     "challenge": "tsx scripts/challenge.ts"
   },
   "dependencies": {

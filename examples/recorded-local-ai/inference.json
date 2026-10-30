@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "connector": "ollama-qwen-v1",
+  "model": {
+    "name": "qwen3:0.6b",
+    "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+    "size": 522653767
+  },
+  "runtimeVersion": "0.32.15",
+  "startedAt": "2026-10-13T20:24:15.611Z",
+  "finishedAt": "2026-10-13T20:24:22.478Z",
+  "durationMs": 6867,
+  "paymentProvider": "simulator",
+  "inference": "Fresh local Ollama inference; no Codex or PayPal call.",
+  "provenance": "Observed on this machine. Exported metadata is not a signature or independent proof of model authorship."
+}

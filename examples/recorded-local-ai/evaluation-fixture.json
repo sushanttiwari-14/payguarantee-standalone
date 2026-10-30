@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "inputDigest": "sha256:c70fdd7c913b02ae3ca9be81e48ddc7e49a1c9bfb02fbe8b41f98b9798620d3a",
+  "policy": {
+    "id": "courtesy-refunds",
+    "name": "Courtesy refund policy",
+    "currency": "USD",
+    "limitCents": 2000,
+    "version": 1
+  },
+  "scenarios": [
+    {
+      "id": "cumulative-over",
+      "message": "Thanks for the earlier $15. Please send another $10 for this order.",
+      "capturedCents": 10000,
+      "priorRefundCents": 1500,
+      "requestedCents": 1000,
+      "supervisorApproved": false,
+      "fault": "none"
+    },
+    {
+      "id": "cumulative-exact",
+      "message": "Thanks for the earlier $15. Please send the remaining $5 courtesy refund.",
+      "capturedCents": 10000,
+      "priorRefundCents": 1500,
+      "requestedCents": 500,
+      "supervisorApproved": false,
+      "fault": "none"
+    }
+  ]
+}

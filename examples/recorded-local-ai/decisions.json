@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 2,
+  "inputDigest": "sha256:c70fdd7c913b02ae3ca9be81e48ddc7e49a1c9bfb02fbe8b41f98b9798620d3a",
+  "agent": {
+    "name": "Qwen3 0.6B · local Ollama",
+    "version": "ollama-qwen-v1/7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435"
+  },
+  "decisions": [
+    {
+      "scenarioId": "case_35fdc44424b983d2f6a9338c6b18d77cc3e95e7ad8ba88cfd226fa72591e34a8",
+      "action": "refund",
+      "amountCents": 1000,
+      "reason": "The requested amount is within the courtesy refund limit of $2000, and the customer has provided the necessary funds. The refund is applied directly to the requested amount, and the remaining balance is not used for this refund.",
+      "customerMessage": "Thanks for the earlier $15. Please send another $10 for this order."
+    },
+    {
+      "scenarioId": "case_5656721fdb2bb9631385bfafcf482e6bf17d3f0b3c2f65c467746c73a89cfdf0",
+      "action": "refund",
+      "amountCents": 500,
+      "reason": "The requested amount is within the courtesy refund limit of $2000, and the customer has provided the necessary funds. The refund is applied directly to the requested amount, and the remaining balance is not used for this refund.",
+      "customerMessage": "Thanks for the earlier $15. Please send the remaining $5 courtesy refund."
+    }
+  ]
+}
