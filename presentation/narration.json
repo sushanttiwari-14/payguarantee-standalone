@@ -1,0 +1,58 @@
+[
+  {
+    "name": "opening",
+    "text": "A ten dollar refund can break a twenty dollar promise. PayProof is a release check for refund agents: catch the tested policy failure, preserve the valid refund, and inspect the evidence.",
+    "durationSeconds": 12.445896,
+    "voice": "Generated stock narration: Leslie",
+    "audio": "audio/opening.mp3"
+  },
+  {
+    "name": "controls",
+    "text": "These three teaching controls use identical inputs. Fifteen dollars has already been refunded. The first agent ignores that history and creates five dollars of excess. The second refuses everyone, including the legitimate customer. The corrected reference blocks the excess and completes the permitted five dollar refund. These payments are simulated.",
+    "durationSeconds": 21.687438,
+    "voice": "Generated stock narration: Leslie",
+    "audio": "audio/controls.mp3"
+  },
+  {
+    "name": "evidence",
+    "text": "Open any case to see the saved customer request, trusted payment facts, proposed action, and independent checks. The report follows the decision to the money. A successful tool response is only a claim until readback confirms what happened.",
+    "durationSeconds": 14.953651,
+    "voice": "Generated stock narration: Leslie",
+    "audio": "audio/evidence.mp3"
+  },
+  {
+    "name": "ai",
+    "text": "This comparison also contains decisions from a real Codex request. The model receives opaque case identities and customer facts, without expected answers. Deterministic code evaluates its decisions. The model and thread are recorded, and the same saved decisions can be replayed.",
+    "durationSeconds": 18.854603,
+    "voice": "Generated stock narration: Leslie",
+    "audio": "audio/ai.mp3"
+  },
+  {
+    "name": "challenge",
+    "text": "We then fixed twenty synthetic cases before one fresh model batch. It passed eighteen, with no failures. Two stayed inconclusive because payment evidence was deliberately pending or unavailable. Ten of twelve legitimate cases passed. One batch demonstrates coverage; it is not a reliability benchmark.",
+    "durationSeconds": 19.783401,
+    "voice": "Generated stock narration: Leslie",
+    "audio": "audio/challenge.mp3"
+  },
+  {
+    "name": "paypal",
+    "text": "The PayPal Sandbox adapter prepares orders, captures approved payments, and reads refund state. Its actual account flow is still unverified. A separate mocked recovery test stopped the server after a refund response. Restart retained the request identity and uncertain outcome, without repeating a payment.",
+    "durationSeconds": 20.062041,
+    "voice": "Generated stock narration: Leslie",
+    "audio": "audio/paypal.mp3"
+  },
+  {
+    "name": "reproduce",
+    "text": "A reviewer can reproduce the short comparison or the twenty case challenge with one command. Replay makes no new model or PayPal call. Imported model claims stay unverified, while the local checks evaluate the recorded inputs and decisions. Every failure remains visible.",
+    "durationSeconds": 17.461406,
+    "voice": "Generated stock narration: Leslie",
+    "audio": "audio/reproduce.mp3"
+  },
+  {
+    "name": "closing",
+    "text": "PayProof supports named, versioned external decisions too. Its scope is controlled U.S. dollar courtesy refunds, not production certification. The next evidence is actual Sandbox execution and feedback from developers using their own agents. Catch the failure. Keep the valid refund. Make the proof inspectable.",
+    "durationSeconds": 20.61932,
+    "voice": "Generated stock narration: Leslie",
+    "audio": "audio/closing.mp3"
+  }
+]

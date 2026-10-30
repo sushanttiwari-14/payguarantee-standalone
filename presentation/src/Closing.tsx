@@ -1,0 +1,331 @@
+import { Audio } from '@remotion/media';
+import { Sequence, staticFile, useCurrentFrame } from 'remotion';
+import { BasicCaptions } from './basic-captions';
+import { colors, Stage, Title, Screen } from './visuals';
+
+export const Closing=()=>{
+ const frame=useCurrentFrame();
+ return <Stage chapter="08 / Before you ship" dark>
+  {frame<300?<><Title>Bring your own agent.</Title><div style={{position:'absolute',left:105,top:345,width:800,fontSize:59,lineHeight:1.35}}>Named, versioned decisions.<br/><span style={{color:colors.mint}}>Controlled USD<br/>courtesy refunds.</span></div><Screen src="external-agent.jpg" sourceWidth={1600} x={965} y={325} width={850} height={480} scale={1.2} cropX={255} cropY={375}/></>:<><div style={{position:'absolute',left:105,top:196,fontFamily:'Instrument Serif',fontSize:135,lineHeight:1.03}}>Catch the failure.<br/>Keep the valid refund.<br/><span style={{color:colors.mint}}>Make the proof inspectable.</span></div><div style={{position:'absolute',left:112,top:713,fontSize:39,lineHeight:1.4}}>Next evidence: actual Sandbox execution + developer feedback.<br/>Controlled test results do not certify production safety.</div></>}
+  <Sequence from={12} durationInFrames={619} name="Closing narration" premountFor={30}>
+   <Audio src={staticFile('audio/closing.mp3')} />
+   <BasicCaptions combineTokensWithinMilliseconds={2000} width={1600} style={{position:'absolute',bottom:52,translate:'160px 0px'}} captions={[
+  {
+    "text": "PayProof",
+    "startMs": 280,
+    "endMs": 1040,
+    "timestampMs": 660,
+    "confidence": null
+  },
+  {
+    "text": " supports",
+    "startMs": 1040,
+    "endMs": 1440,
+    "timestampMs": 1240,
+    "confidence": null
+  },
+  {
+    "text": " named,",
+    "startMs": 1440,
+    "endMs": 1540,
+    "timestampMs": 1490,
+    "confidence": null
+  },
+  {
+    "text": " versioned,",
+    "startMs": 1920,
+    "endMs": 2220,
+    "timestampMs": 2070,
+    "confidence": null
+  },
+  {
+    "text": " external",
+    "startMs": 2680,
+    "endMs": 3220,
+    "timestampMs": 2950,
+    "confidence": null
+  },
+  {
+    "text": " decisions",
+    "startMs": 3220,
+    "endMs": 3680,
+    "timestampMs": 3450,
+    "confidence": null
+  },
+  {
+    "text": " too.",
+    "startMs": 3680,
+    "endMs": 4080,
+    "timestampMs": 3880,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Its",
+    "startMs": 4320,
+    "endMs": 4620,
+    "timestampMs": 4470,
+    "confidence": null
+  },
+  {
+    "text": " scope",
+    "startMs": 4620,
+    "endMs": 4840,
+    "timestampMs": 4730,
+    "confidence": null
+  },
+  {
+    "text": " is",
+    "startMs": 4840,
+    "endMs": 5280,
+    "timestampMs": 5060,
+    "confidence": null
+  },
+  {
+    "text": " controlled",
+    "startMs": 5280,
+    "endMs": 5760,
+    "timestampMs": 5520,
+    "confidence": null
+  },
+  {
+    "text": " U.S.",
+    "startMs": 5760,
+    "endMs": 6040,
+    "timestampMs": 5900,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " dollar",
+    "startMs": 6040,
+    "endMs": 6520,
+    "timestampMs": 6280,
+    "confidence": null
+  },
+  {
+    "text": " courtesy",
+    "startMs": 6520,
+    "endMs": 7020,
+    "timestampMs": 6770,
+    "confidence": null
+  },
+  {
+    "text": " refunds,",
+    "startMs": 7020,
+    "endMs": 7520,
+    "timestampMs": 7270,
+    "confidence": null
+  },
+  {
+    "text": " not",
+    "startMs": 7780,
+    "endMs": 8240,
+    "timestampMs": 8010,
+    "confidence": null
+  },
+  {
+    "text": " production",
+    "startMs": 8240,
+    "endMs": 8780,
+    "timestampMs": 8510,
+    "confidence": null
+  },
+  {
+    "text": " certification.",
+    "startMs": 8780,
+    "endMs": 9360,
+    "timestampMs": 9070,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " The",
+    "startMs": 9500,
+    "endMs": 9760,
+    "timestampMs": 9630,
+    "confidence": null
+  },
+  {
+    "text": " next",
+    "startMs": 9760,
+    "endMs": 10180,
+    "timestampMs": 9970,
+    "confidence": null
+  },
+  {
+    "text": " evidence",
+    "startMs": 10180,
+    "endMs": 10460,
+    "timestampMs": 10320,
+    "confidence": null
+  },
+  {
+    "text": " is",
+    "startMs": 10460,
+    "endMs": 10900,
+    "timestampMs": 10680,
+    "confidence": null
+  },
+  {
+    "text": " actual",
+    "startMs": 10900,
+    "endMs": 11380,
+    "timestampMs": 11140,
+    "confidence": null
+  },
+  {
+    "text": " sandbox",
+    "startMs": 11380,
+    "endMs": 12080,
+    "timestampMs": 11730,
+    "confidence": null
+  },
+  {
+    "text": " execution",
+    "startMs": 12080,
+    "endMs": 12240,
+    "timestampMs": 12160,
+    "confidence": null
+  },
+  {
+    "text": " and",
+    "startMs": 12380,
+    "endMs": 12720,
+    "timestampMs": 12550,
+    "confidence": null
+  },
+  {
+    "text": " feedback",
+    "startMs": 12720,
+    "endMs": 13100,
+    "timestampMs": 12910,
+    "confidence": null
+  },
+  {
+    "text": " from",
+    "startMs": 13100,
+    "endMs": 13620,
+    "timestampMs": 13360,
+    "confidence": null
+  },
+  {
+    "text": " developers",
+    "startMs": 13620,
+    "endMs": 14040,
+    "timestampMs": 13830,
+    "confidence": null
+  },
+  {
+    "text": " using",
+    "startMs": 14040,
+    "endMs": 14340,
+    "timestampMs": 14190,
+    "confidence": null
+  },
+  {
+    "text": " their",
+    "startMs": 14340,
+    "endMs": 14640,
+    "timestampMs": 14490,
+    "confidence": null
+  },
+  {
+    "text": " own",
+    "startMs": 14640,
+    "endMs": 15140,
+    "timestampMs": 14890,
+    "confidence": null
+  },
+  {
+    "text": " agents.",
+    "startMs": 15140,
+    "endMs": 15800,
+    "timestampMs": 15470,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Catch",
+    "startMs": 16040,
+    "endMs": 16260,
+    "timestampMs": 16150,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 16260,
+    "endMs": 16680,
+    "timestampMs": 16470,
+    "confidence": null
+  },
+  {
+    "text": " failure.",
+    "startMs": 16680,
+    "endMs": 17120,
+    "timestampMs": 16900,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Keep",
+    "startMs": 17340,
+    "endMs": 17540,
+    "timestampMs": 17440,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 17540,
+    "endMs": 17820,
+    "timestampMs": 17680,
+    "confidence": null
+  },
+  {
+    "text": " valid",
+    "startMs": 17820,
+    "endMs": 18260,
+    "timestampMs": 18040,
+    "confidence": null
+  },
+  {
+    "text": " refund.",
+    "startMs": 18260,
+    "endMs": 18800,
+    "timestampMs": 18530,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Make",
+    "startMs": 19040,
+    "endMs": 19220,
+    "timestampMs": 19130,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 19220,
+    "endMs": 19500,
+    "timestampMs": 19360,
+    "confidence": null
+  },
+  {
+    "text": " proof",
+    "startMs": 19500,
+    "endMs": 19920,
+    "timestampMs": 19710,
+    "confidence": null
+  },
+  {
+    "text": " inspectable.",
+    "startMs": 19920,
+    "endMs": 20440,
+    "timestampMs": 20180,
+    "confidence": null,
+    "pageBreakAfter": true
+  }
+]} />
+  </Sequence>
+ </Stage>;
+};
