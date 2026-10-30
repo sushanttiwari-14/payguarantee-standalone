@@ -19,9 +19,9 @@ export const RemotionRoot: React.FC = () => {
        <Composition id="Evidence" component={Evidence} durationInFrames={494} fps={30} width={1920} height={1080}/>
        <Composition id="AI" component={AI} durationInFrames={611} fps={30} width={1920} height={1080}/>
        <Composition id="Challenge" component={Challenge} durationInFrames={639} fps={30} width={1920} height={1080}/>
-       <Composition id="PayPal" component={PayPal} durationInFrames={647} fps={30} width={1920} height={1080}/>
+       <Composition id="PayPal" component={PayPal} durationInFrames={684} fps={30} width={1920} height={1080}/>
        <Composition id="Reproduce" component={Reproduce} durationInFrames={569} fps={30} width={1920} height={1080}/>
-       <Composition id="Closing" component={Closing} durationInFrames={664} fps={30} width={1920} height={1080}/>
+       <Composition id="Closing" component={Closing} durationInFrames={643} fps={30} width={1920} height={1080}/>
       </Folder>
     </>
   );

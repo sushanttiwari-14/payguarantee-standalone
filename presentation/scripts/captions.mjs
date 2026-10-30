@@ -29,9 +29,9 @@ for(const clip of clips){
   timing.push({name:clip.name,from:offsetFrames,durationInFrames,audioSeconds:clip.durationSeconds,captions:captions.length,pages:pages.length,maxCaptionCharacters:Math.max(...pages.map(page=>page.text.trim().length))});
   offsetFrames+=durationInFrames;
 }
-assert.equal(offsetFrames,4739,'Update the authored timeline if narration duration changed');
+assert.equal(offsetFrames,4755,'Update the authored timeline if narration duration changed');
 assert(offsetFrames/30<180);
 await mkdir('out',{recursive:true});
 await writeFile('out/payproof-demo.srt',srt.join('\n'));
-await writeFile('out/timing-report.json',JSON.stringify({fps:30,width:1920,height:1080,frames:offsetFrames,durationSeconds:offsetFrames/30,clips:timing,captionMethod:'Local Whisper small.en; source-relative times, spelling corrected against supplied script',scope:'Recorded app screenshots and observed synthetic results. Actual PayPal account execution remains unverified.'},null,2)+'\n');
+await writeFile('out/timing-report.json',JSON.stringify({fps:30,width:1920,height:1080,frames:offsetFrames,durationSeconds:offsetFrames/30,clips:timing,captionMethod:'Local Whisper small.en; source-relative times, spelling corrected against supplied script',scope:'Recorded app screenshots, synthetic challenge results, and observed actual PayPal Sandbox results. Replay does not reauthenticate historical model or provider claims.'},null,2)+'\n');
 console.log(`Validated ${clips.length} narration clips and ${index} caption pages; ${offsetFrames} frames (${(offsetFrames/30).toFixed(3)} seconds).`);

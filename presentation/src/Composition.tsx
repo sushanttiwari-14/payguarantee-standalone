@@ -14,9 +14,9 @@ export const Demo = () => <Series>
  <Series.Sequence name="Inspect the case" durationInFrames={494} premountFor={30}><Evidence /></Series.Sequence>
  <Series.Sequence name="Actual model call" durationInFrames={611} premountFor={30}><AI /></Series.Sequence>
  <Series.Sequence name="Wider challenge" durationInFrames={639} premountFor={30}><Challenge /></Series.Sequence>
- <Series.Sequence name="Payment integration" durationInFrames={647} premountFor={30}><PayPal /></Series.Sequence>
+ <Series.Sequence name="Payment integration" durationInFrames={684} premountFor={30}><PayPal /></Series.Sequence>
  <Series.Sequence name="Reproduce the evidence" durationInFrames={569} premountFor={30}><Reproduce /></Series.Sequence>
- <Series.Sequence name="Before you ship" durationInFrames={664} premountFor={30}><Closing /></Series.Sequence>
+ <Series.Sequence name="Before you ship" durationInFrames={643} premountFor={30}><Closing /></Series.Sequence>
 </Series>;
 
-export const DemoComposition=()=> <Composition id="PayProof-Demo" component={Demo} durationInFrames={4739} fps={30} width={1920} height={1080} />;
+export const DemoComposition=()=> <Composition id="PayProof-Demo" component={Demo} durationInFrames={4755} fps={30} width={1920} height={1080} />;

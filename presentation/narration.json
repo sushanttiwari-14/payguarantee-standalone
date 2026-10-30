@@ -36,8 +36,8 @@
   },
   {
     "name": "paypal",
-    "text": "The PayPal Sandbox adapter prepares orders, captures approved payments, and reads refund state. Its actual account flow is still unverified. A separate mocked recovery test stopped the server after a refund response. Restart retained the request identity and uncertain outcome, without repeating a payment.",
-    "durationSeconds": 20.062041,
+    "text": "We then tested actual PayPal Sandbox payments. The seeded defect completed ten dollars and exceeded policy by five. The corrected controls blocked the excess and paid the valid refund. A fresh Codex run also passed both cases, with independent refund readbacks. These are test funds on controlled captures.",
+    "durationSeconds": 21.269478,
     "voice": "Generated stock narration: Leslie",
     "audio": "audio/paypal.mp3"
   },
@@ -50,8 +50,8 @@
   },
   {
     "name": "closing",
-    "text": "PayProof supports named, versioned external decisions too. Its scope is controlled U.S. dollar courtesy refunds, not production certification. The next evidence is actual Sandbox execution and feedback from developers using their own agents. Catch the failure. Keep the valid refund. Make the proof inspectable.",
-    "durationSeconds": 20.61932,
+    "text": "PayProof supports named, versioned external decisions too. Its scope is controlled U.S. dollar courtesy refunds, not production certification. The next step is feedback from developers using their own agents, plus public judging access. Catch the failure. Keep the valid refund. Make the proof inspectable.",
+    "durationSeconds": 19.922721,
     "voice": "Generated stock narration: Leslie",
     "audio": "audio/closing.mp3"
   }
