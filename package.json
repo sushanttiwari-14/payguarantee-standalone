@@ -1,0 +1,48 @@
+{
+  "name": "payproof-refunds",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Evidence-based release tests for PayPal refund agents",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "postinstall": "node scripts/prepare-runtime.mjs",
+    "dev": "tsx server/index.ts",
+    "build": "tsc --noEmit && vite build",
+    "start": "tsx server/index.ts --production",
+    "test": "tsx --test tests/*.test.ts",
+    "codex:login": "codex login",
+    "replay": "tsx scripts/replay.ts",
+    "check": "npm test && npm run build",
+    "source": "tsx scripts/package-source.ts",
+    "evaluate": "tsx scripts/evaluate.ts",
+    "judge:verify": "tsx scripts/judge-check.ts",
+    "challenge": "tsx scripts/challenge.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource/dm-mono": "^5.3.0",
+    "@fontsource/instrument-serif": "^5.3.0",
+    "@openai/codex": "0.162.0",
+    "@openai/codex-sdk": "0.162.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "fflate": "^0.8.3",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
+  }
+}
